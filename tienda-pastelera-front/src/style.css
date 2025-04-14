@@ -1,0 +1,127 @@
+body {
+  font-family: 'Dancing Script', cursive;
+  background-color: #dc9ba5; 
+  color: #333333; 
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  
+ 
+}
+
+
+
+h1, h2, h3 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: normal;
+  color: #dda7bb; 
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+ 
+}
+
+
+button {
+  background-color: #f48fb1; 
+  padding: 10px 20px;
+  border-radius: 30px; 
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f06292; 
+}
+
+
+.card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-top: 30%;
+ 
+}
+
+
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  color: #ef72a0; 
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666666;
+}
+
+/* Estilos para los formularios */
+input, select, textarea {
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #f48fb1; /* Rosa suave para los bordes */
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #f06292; 
+}
+
+
+a {
+  text-decoration: none;
+  color: #f48fb1; 
+}
+
+a:hover {
+  color: #d81b60;
+}
+
+
+section {
+  padding: 60px 0;
+  background-color: #e0a9bc; 
+}
+
+
+header {
+  background: url('https://via.placeholder.com/1920x600') center center no-repeat;
+  background-size: cover;
+  color: rgb(195, 168, 187);
+  padding: 80px 0;
+  text-align: center;
+  height: 80px;
+
+}
+
+header h1 {
+  font-size: 3.5rem;
+  color: #9f566e; 
+}
+
+
+
+
+.col-md-4 {
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+}
